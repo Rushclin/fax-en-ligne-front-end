@@ -1,5 +1,5 @@
 // Importation de React
-import React from 'react'
+import React, { Component } from 'react'
 
 // Navigation
 import { createNativeStackNavigator  } from '@react-navigation/native-stack';
@@ -15,16 +15,16 @@ class ListStack extends Component{
     render(){
         return(
             <>
-                <TaskRootStack.Navigator
+                <FaxStack.Navigator
                 initialRouteName="ListFax"
                 >
 
-                    <TaskRootStack.Screen 
+                    <FaxStack.Screen 
                         name="Liste des faxs" 
                         component = { ListFax }
                     />
                 
-                </TaskRootStack.Navigator>
+                </FaxStack.Navigator>
             </>
         )
     }
