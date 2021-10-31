@@ -5,7 +5,7 @@ const App = () => {
   return(
     <>
       <Text>
-        Je suis Rushclin Takam le petit 
+        Je suis Rushclin Takam
       </Text>
     </>
   )
